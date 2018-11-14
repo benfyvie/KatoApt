@@ -1,0 +1,163 @@
+div.content {
+	width: 1200px;	
+	height: 1069px;
+	/*height: 1107px;  USE WITH SUBTITLE */ 
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+}
+
+table.content {
+ width: 1200px;	
+}
+
+tr.main {
+	height: 866px;
+}
+
+div.title {
+	text-align: center;
+	height: 46px;
+	/*height: 84px; USE WITH SUBTITLE*/
+}
+
+div.contact, div.more_info {
+	text-align: center;
+	height: 36px;	
+}
+
+
+
+div.top_rounded {
+	padding-top:5px;
+	margin-left: 1px;
+	margin-right:1px;
+}
+
+div.main {
+	clear:both;
+	display:block;
+	height: 930px;
+}
+
+div.contact_footer {
+	clear: both;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	display:block;
+
+}
+
+#galleria {
+	height: 435px;
+	width: 500px;
+	float: right;
+	margin-top: -10px;
+}
+
+#map_canvas {
+	height: 460px;
+	width: 460px;	
+}
+/*
+div.galleria-stage {
+	overflow: visible !important;
+}
+
+div.galleria-stage .galleria-images {
+    height: 360px !important;	
+}
+*/
+div.galleria-thumbnails-container,
+div#map_canvas>div>div:nth-child(2),
+div#map_canvas>div>div:nth-child(3),
+div#map_canvas>div>div:nth-child(6){
+	display: none !important;
+}
+	
+/*	
+div.galleria-image img{
+    top: 10px !important;
+    left: 10px !important;	
+}
+
+
+div#map_canvas {
+	margin: 10px;
+}
+*/
+
+div.placemat {	
+	position: relative;
+	top: 0px;
+	margin-top: 10px;
+	margin-right: 10px;
+	width: 480px;
+	height: 480px;	
+	float: right;	
+	clear: right;
+	overflow: hidden;
+}
+
+div.description > div:first-child{
+	padding-top: 20px;
+}
+
+div.description > div:last-child{
+	padding-bottom: 10px;
+}
+
+div.description > div:nth-child(1n + 2) { 
+	margin-top: 40px;
+	margin-bottom: 0px;
+}
+
+
+div.description ul { 
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+div.left_pane div:nth-child(1n + 2) {
+    margin-top: 20px;
+}
+
+div.description li {
+	height: 20px;
+}
+
+div.application{
+	text-align: center;
+	height: 29px;
+	margin-bottom: 10px;	
+}
+
+div.application, div.button_link { 	
+	margin-left: auto;
+	margin-right: auto;
+	width: 295px;
+	padding-bottom:1px;
+}
+
+div.left_pane{
+	margin-top: 10px;
+	margin-left: 10px;	
+	width: 680px;
+}
+
+div.features{
+	position: relative;
+	display: block;
+	height: 740px;
+}
+
+div.conditions{
+	position: relative;
+	display: block;
+}
+
+
+
+
+  

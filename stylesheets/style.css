@@ -1,0 +1,148 @@
+/* http://colorschemedesigner.com/#2m51T66NhcOEB */
+
+body {
+ background-image:url('../images/redox_01_background.jpg');
+}
+
+div.shadow {
+    box-shadow: 2px 2px 2px 2px #888888;
+}
+
+div.top_rounded {
+	border-radius: 5px 5px 0 0;		
+}
+
+div.bottom_rounded {
+	border-radius: 0px 0px 5px 5px;		
+}
+
+div.rounded {
+	border-radius: 5px;
+}
+
+div.content {	
+	background: #656565;	    
+}
+
+div.title {
+	font-size: 42px;
+        color: white;	
+	background: #454645;
+}
+
+div.contact_footer {
+	font-size: 30px;
+        color: white;	
+	background: #454645;
+}
+
+
+div.subtitle {
+    font-size: 16px;
+        color: yellow;	
+	background: #454645;
+}
+
+div.last-updated {
+    font-size: 12px;
+        color: #ff6666;
+	background: #454645;
+}
+
+div.galleria-container {	
+	background: none;	
+}
+
+div.galleria-image img{
+    border-radius: 5px !important;	
+}
+
+/*
+div#map_canvas {
+	border-radius: 4px !important;	
+}
+*/
+
+div.galleria-stage .galleria-images, .placemat{
+    background-color: none;
+	border-radius: 0px;	
+	box-shadow: 2px 2px 2px 2px #888888;
+}
+
+div.description{
+	background-color: #FFFFFF;		
+}
+
+div.description div{
+	margin-left: 10px;
+}
+
+div.contact, div.application{	
+    background-color: #FFFFCE;
+}
+
+div.placemat {
+  cursor: pointer;
+}
+
+div {
+	font-size: 24px;
+}
+
+div ul li {
+	font-size: 16.5px;
+}
+
+
+div.contact, div.application { 
+	font-size: 24px;
+}
+
+
+div.description {
+	color: #5C5C5C;
+	font-family: Helvetica;	
+}
+
+div.button_link a{
+	text-decoration: none;
+	vertical-align: center;
+}
+
+div.title, div.more_info, div.button_link a {
+	font-family: georgia;
+	font-weight: bold;
+}
+
+/** http://css3button.net/ **/
+div.css3button {
+	font-family: Currier, Helvetica, sans-serif;
+	font-size: 22px;
+	color: #5c5c5c;
+	padding: 0px 0px;
+	background: -moz-linear-gradient(
+		top,
+		#ffffeb 0%,
+		#e8f8c9);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#ffef7e),
+		to(#ffe212));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #134201;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	text-shadow:
+		0px 0px 0px rgba(000,000,000,0),
+		0px 0px 0px rgba(8,8,8,0);
+}
+
