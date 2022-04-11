@@ -306,6 +306,10 @@ https://www.icwebdesign.co.uk/common-viewport-sizes
 /** Pixel 4a has viewport size of 393px **/
 @media screen and (max-width:393px){
 
+	body {
+		max-width: 385px;
+	}
+
 	div.main {
 		height: 72.5em;
 	}
