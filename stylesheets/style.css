@@ -84,7 +84,7 @@ div.contact, div.application{
 }
 
 div.placemat {
-  cursor: pointer;
+  /** cursor: pointer; **/
 }
 
 div {
@@ -148,4 +148,8 @@ div.css3button {
 		0px 0px 0px rgba(8,8,8,0);
 }
 
+}
+
+@media screen and (max-width:420px){
+	
 }
