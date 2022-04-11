@@ -4,6 +4,10 @@ div.phone_break {
 	display: none;
 }
 
+    div.medium phone_break {
+	  display: none;
+    }
+
 div.phone.clear {
 	display: none;
 }
@@ -164,6 +168,10 @@ div.left_pane{
 	width: 680px;
 }
 
+div.more_info{
+	display:inline-block;
+}
+
 div.features{
 	position: relative;
 	display: block;
@@ -191,13 +199,17 @@ div.conditions{
 	
 	div.title.phone {
 		font-size: 1.5em;
-		height: 2.8em;
+		height: 2.6em;
 	}
 
 	div.phone_break {
 	  display: inline;
     }	
-	
+
+	div.medium.phone_break {
+	  display: none;
+    }	
+
 	div.phone.clear {
 		display: inline;
 	}
@@ -223,7 +235,7 @@ div.conditions{
 		float: left;
 		clear: left;
 		margin-top: -55px;
-		margin-bottom: 20px;
+		margin-bottom: 15px;
 		margin-left: 10px;
 		height: 410px;
 	}
@@ -250,74 +262,6 @@ div.conditions{
 	}
 }
 
-/**
-@media screen and (max-width:480px){
-	body.phone {
-		margin: 0px;
-	}
-	
-	div.title.phone {
-		font-size: 1.2em;
-		height: 2.8em;
-	}
-	
-	div.phone_break {
-	display: inline;
-}
-
-	div.phone.clear {
-		display: inline;
-	}
-	
-	div.main {
-		height: 74em;
-	}
-	
-	div.content {
-		max-width: 420px;
-		height: 84em;
-	}
-	
-	div#galleria {
-		max-width: 420px;
-		float: left;
-		clear: left;
-		margin-top: -27px;
-	}
-	
-	div.placemat {
-		max-width: 400px;
-		float: left;
-		clear: left;
-		margin-top: -75px;
-		margin-bottom: 20px;
-		margin-left: 10px;
-		height: 410px;
-	}
-	
-	div.placemat img.map{
-		max-width: 410px;
-	}
-	
-	div.left_pane.phone {
-		max-width: 400px;
-		clear: left;
-	}
-	
-	div.contact_footer {
-		margin-top: 15px;
-	}
-	
-	div.more_info {
-		height: 4em;
-	}
-	
-	div.conditions li {
-		clear:both;
-	}
-}
-
-*//
 /*
 Common viewport sizes:
 
@@ -325,6 +269,10 @@ https://www.icwebdesign.co.uk/common-viewport-sizes
 */
 
 @media screen and (max-width:412px){
+
+	div.main {
+		height: 72.75em;
+	}
 
     div.phone_break {
 	  display: inline;
@@ -336,10 +284,12 @@ https://www.icwebdesign.co.uk/common-viewport-sizes
 	
 	div#galleria {
 		max-width: 412px;
+		margin-top: -35px;
 	}
 	
 	div.placemat {
 		max-width: 390px;
+		margin-top: -85px;
 		height: 400px;
 	}
 	
@@ -349,6 +299,54 @@ https://www.icwebdesign.co.uk/common-viewport-sizes
 	
 	div.left_pane.phone {
 		max-width: 390px;
+	}
+	
+}
+
+/** Pixel 4a has viewport size of 393px **/
+@media screen and (max-width:393px){
+
+	div.main {
+		height: 72.5em;
+	}
+
+    div.medium phone_break {
+	  display: inline;
+    }
+
+    div.phone_break {
+	  display: inline;
+    }
+	
+	div.medium.small_phone.clear {
+		display: inline;
+	}
+
+	div.content {
+		max-width: 393px;
+	}
+	
+	div#galleria {
+		max-width: 393px;
+		margin-top: -45px;
+	}
+	
+	div.placemat {
+		max-width: 370px;
+		margin-top: -90px;
+		height: 380px;
+	}
+	
+	div.placemat img.map{
+		max-width: 385px;
+	}
+	
+	div.left_pane.phone {
+		max-width: 372px;		
+	}
+	
+	div.more_info {
+		height: 4em;
 	}
 }
 
