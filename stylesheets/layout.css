@@ -4,7 +4,7 @@ div.phone_break {
 	display: none;
 }
 
-    div.medium phone_break {
+    div.medium.phone_break {
 	  display: none;
     }
 
@@ -319,7 +319,7 @@ https://experienceleague.adobe.com/docs/target/using/experiences/vec/mobile-view
 		height: 72.25em;
 	}
 
-    div.medium phone_break {
+    div.medium.phone_break {
 	  display: inline;
     }
 
