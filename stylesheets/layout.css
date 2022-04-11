@@ -4,6 +4,10 @@ div.phone_break {
 	display: none;
 }
 
+div.phone.clear {
+	display: none;
+}
+
 div.content {
 	width: 1200px;	
 	height: 1069px;
@@ -173,6 +177,10 @@ div.conditions{
 }
 
 @media screen and (max-width:420px){
+	body.phone {
+		margin: 0px;
+	}
+	
 	div.title.phone {
 		font-size: 1.2em;
 		height: 2.8em;
@@ -181,6 +189,10 @@ div.conditions{
 	div.phone_break {
 	display: inline;
 }
+
+	div.phone.clear {
+		display: inline;
+	}
 	
 	div.main {
 		height: 74em;
