@@ -8,6 +8,14 @@ div.phone.clear {
 	display: none;
 }
 
+	div.small_phone.break {
+		display: none;
+	}
+	
+	div.small_phone.clear {
+		display: none;
+	}
+
 div.content {
 	width: 1200px;	
 	height: 1069px;
@@ -176,7 +184,74 @@ div.conditions{
 
 }
 
-@media screen and (max-width:420px){
+@media screen and (max-width:480px){
+	body.phone {
+		margin: 0px;
+	}
+	
+	div.title.phone {
+		font-size: 1.5em;
+		height: 2.8em;
+	}
+
+	div.phone_break {
+	  display: inline;
+    }	
+	
+	div.phone.clear {
+		display: inline;
+	}
+	
+	div.main {
+		height: 74em;
+	}
+	
+	div.content {
+		max-width: 480px;
+		height: 80em;
+	}
+	
+	div#galleria {
+		max-width: 480px;
+		float: left;
+		clear: left;
+		margin-top: -15px;
+	}
+	
+	div.placemat {
+		max-width: 460px;
+		float: left;
+		clear: left;
+		margin-top: -55px;
+		margin-bottom: 20px;
+		margin-left: 10px;
+		height: 410px;
+	}
+	
+	div.placemat img.map{
+		max-width: 470px;
+	}
+	
+	div.left_pane.phone {
+		max-width: 460px;
+		clear: left;
+	}
+	
+	div.contact_footer {
+		margin-top: 23px;
+	}
+	
+	div.more_info {
+		height: 3em;
+	}
+	
+	div.conditions li {
+		clear:both;
+	}
+}
+
+/**
+@media screen and (max-width:480px){
 	body.phone {
 		margin: 0px;
 	}
@@ -242,5 +317,88 @@ div.conditions{
 	}
 }
 
+*//
+/*
+Common viewport sizes:
 
-  
+https://www.icwebdesign.co.uk/common-viewport-sizes
+*/
+
+@media screen and (max-width:412px){
+
+    div.phone_break {
+	  display: inline;
+    }
+
+	div.content {
+		max-width: 412px;
+	}
+	
+	div#galleria {
+		max-width: 412px;
+	}
+	
+	div.placemat {
+		max-width: 390px;
+		height: 400px;
+	}
+	
+	div.placemat img.map{
+		max-width: 400px;
+	}
+	
+	div.left_pane.phone {
+		max-width: 390px;
+	}
+}
+
+@media screen and (max-width:360px){
+
+	div.main {
+		height: 71em;
+	}
+
+	div.features.center.headline {
+		font-size: 1.3em;
+	}
+	
+	div.small_phone.break {
+		display: inline;
+	}
+	
+	div.small_phone.clear {
+		display: inline;
+	}
+
+	div.title.phone {
+		font-size: 1.3em;
+		height: 2.8em;
+	}
+
+	div.content {
+		max-width: 360px;
+	}
+	
+	div#galleria {
+		max-width: 360px;
+		margin-top: -55px;
+	}
+	
+	div.placemat {
+		max-width: 340px;
+		margin-top: -105px;
+		height: 355px;
+	}
+	
+	div.placemat img.map{
+		max-width: 360px;
+	}
+	
+	div.more_info {
+		height: 4em;
+	}	
+	
+	div.left_pane.phone {
+		max-width: 340px;
+	}
+}
