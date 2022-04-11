@@ -279,6 +279,10 @@ https://experienceleague.adobe.com/docs/target/using/experiences/vec/mobile-view
 	  display: inline;
     }
 
+    div.medium.phone_break {
+	  display: inline;
+    }
+
 	div.content {
 		max-width: 410px;
 		height: 83.5em;
