@@ -91,6 +91,10 @@ div {
 	font-size: 24px;
 }
 
+div ul {
+	list-style-type: circle;
+}
+
 div ul li {
 	font-size: 16.5px;
 }
@@ -148,8 +152,4 @@ div.css3button {
 		0px 0px 0px rgba(8,8,8,0);
 }
 
-}
-
-@media screen and (max-width:420px){
-	
 }
