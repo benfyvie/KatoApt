@@ -307,7 +307,7 @@ https://www.icwebdesign.co.uk/common-viewport-sizes
 @media screen and (max-width:393px){
 
 	body {
-		max-width: 382px;
+		max-width: 380px;
 	}
 
 	div.main {
@@ -327,11 +327,11 @@ https://www.icwebdesign.co.uk/common-viewport-sizes
 	}
 
 	div.content {
-		max-width: 382px;
+		max-width: 380px;
 	}
 	
 	div#galleria {
-		max-width: 382px;
+		max-width: 380px;
 		margin-top: -45px;
 	}
 	
@@ -342,7 +342,7 @@ https://www.icwebdesign.co.uk/common-viewport-sizes
 	}
 	
 	div.placemat img.map{
-		max-width: 382px;
+		max-width: 380px;
 	}
 	
 	div.left_pane.phone {
