@@ -68,6 +68,7 @@ div.contact_footer {
 	bottom: 0;
 	left: 0;
 	display:block;
+	text-align: center;
 
 }
 
@@ -192,7 +193,20 @@ div.conditions{
 
 }
 
-@media screen and (max-width:480px){
+/*
+Common viewport sizes:
+
+https://www.icwebdesign.co.uk/common-viewport-sizes
+https://experienceleague.adobe.com/docs/target/using/experiences/vec/mobile-viewports.html?lang=en
+*/
+
+
+/* 480px is a standard viewport width for many large format phones */
+@media screen and (max-width:485px){
+	body {
+		max-width: 480px;
+	}
+	
 	body.phone {
 		margin: 0px;
 	}
@@ -262,13 +276,13 @@ div.conditions{
 	}
 }
 
-/*
-Common viewport sizes:
+/* 412px is a standard viewport width for many pixel phones */
+/* 414px is a standard viewport width for many iphones */
+@media screen and (max-width:416px){
 
-https://www.icwebdesign.co.uk/common-viewport-sizes
-*/
-
-@media screen and (max-width:412px){
+	body {
+		max-width: 412px;
+	}
 
 	div.main {
 		height: 72.75em;
@@ -279,18 +293,19 @@ https://www.icwebdesign.co.uk/common-viewport-sizes
     }
 
 	div.content {
-		max-width: 412px;
+		max-width: 410px;
+		height: 83.5em;
 	}
 	
 	div#galleria {
-		max-width: 412px;
+		max-width: 410px;
 		margin-top: -35px;
 	}
 	
 	div.placemat {
 		max-width: 390px;
 		margin-top: -85px;
-		height: 400px;
+		height: 395px;
 	}
 	
 	div.placemat img.map{
@@ -301,9 +316,12 @@ https://www.icwebdesign.co.uk/common-viewport-sizes
 		max-width: 390px;
 	}
 	
+	div.more_info {
+		height: 4em;
+	}	
 }
 
-/** Pixel 4a has viewport size of 393px **/
+/** 393px is common for Pixel 4a **/
 @media screen and (max-width:395px){
 
 	body {
@@ -311,7 +329,7 @@ https://www.icwebdesign.co.uk/common-viewport-sizes
 	}
 
 	div.main {
-		height: 72.5em;
+		height: 72.25em;
 	}
 
     div.medium phone_break {
@@ -325,9 +343,10 @@ https://www.icwebdesign.co.uk/common-viewport-sizes
 	div.medium.small_phone.clear {
 		display: inline;
 	}
-
+	
 	div.content {
 		max-width: 390px;
+		height: 83em;
 	}
 	
 	div#galleria {
@@ -338,7 +357,7 @@ https://www.icwebdesign.co.uk/common-viewport-sizes
 	div.placemat {
 		max-width: 370px;
 		margin-top: -90px;
-		height: 390px;
+		height: 375px;
 	}
 	
 	div.placemat img.map{
@@ -354,7 +373,69 @@ https://www.icwebdesign.co.uk/common-viewport-sizes
 	}
 }
 
-@media screen and (max-width:360px){
+/* 375px is common for many iphone devices */
+@media screen and (max-width:377px){
+
+	body {
+		max-width: 375px;
+	}
+
+	div.main {
+		height: 71em;
+	}
+
+	div.features.center.headline {
+		font-size: 1.3em;
+	}
+	
+	div.small_phone.break {
+		display: inline;
+	}
+	
+	div.small_phone.clear {
+		display: inline;
+	}
+
+	div.title.phone {
+		font-size: 1.3em;
+		height: 2.8em;
+	}
+
+	div.content {
+		max-width: 375px;
+		height: 81em;
+	}
+	
+	div#galleria {
+		max-width: 375px;
+		margin-top: -55px;
+	}
+	
+	div.placemat {
+		max-width: 353px;
+		margin-top: -105px;
+		height: 355px;
+	}
+	
+	div.placemat img.map{
+		max-width: 360px;
+	}
+	
+	div.more_info {
+		height: 4em;
+	}	
+	
+	div.left_pane.phone {
+		max-width: 355px;
+	}
+}
+
+/* 360px is common for many small mobile devices */
+@media screen and (max-width:365px){
+
+	body {
+		max-width: 360px;
+	}
 
 	div.main {
 		height: 71em;
