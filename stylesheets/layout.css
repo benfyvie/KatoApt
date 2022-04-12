@@ -21,7 +21,7 @@ div.content {
 	/*height: 1107px;  USE WITH SUBTITLE */ 
 	margin-left: auto;
 	margin-right: auto;
-	display:block;
+	display: table;
 }
 
 table.content {
@@ -43,8 +43,6 @@ div.contact, div.more_info {
 	height: 36px;	
 }
 
-
-
 div.top_rounded {
 	padding-top:5px;
 	margin-left: 1px;
@@ -53,7 +51,7 @@ div.top_rounded {
 
 div.main {
 	clear:both;
-	display:block;
+	display: inline;
 	height: 930px;
 }
 
@@ -64,7 +62,7 @@ div.contact_footer {
 	left: 0;
 	display:block;
 	text-align: center;
-
+	margin-top: 12px;
 }
 
 #galleria {
@@ -248,10 +246,6 @@ https://experienceleague.adobe.com/docs/target/using/experiences/vec/mobile-view
 	div.left_pane.phone {
 		max-width: 460px;
 		clear: left;
-	}
-	
-	div.contact_footer {
-		margin-top: 23px;
 	}
 	
 	div.more_info {
