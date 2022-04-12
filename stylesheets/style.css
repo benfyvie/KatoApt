@@ -1,7 +1,5 @@
 /* http://colorschemedesigner.com/#2m51T66NhcOEB */
 
-@media screen and (max-width:1920px){
-
 body {
  background-image:url('../images/redox_01_background.jpg');
 }
@@ -150,6 +148,4 @@ div.css3button {
 	text-shadow:
 		0px 0px 0px rgba(000,000,000,0),
 		0px 0px 0px rgba(8,8,8,0);
-}
-
 }
