@@ -190,6 +190,12 @@
                            $(this).attr('src', "images/map_out.jpg");
                           }
     );
+	
+  $(".map").bind('touchstart', function(){
+    $(this).attr('src', "images/map_in.jpg");
+  }).bind('touchend', function(){
+    $(this).attr('src', "images/map_out.jpg");
+  });
     
     function openMap(){
       // window.open("https://drive.google.com/open?id=1eU4q0Pq0HptuMPRFeSLNyjeJDMg&usp=sharing")
