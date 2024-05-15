@@ -30,6 +30,14 @@ div.title {
 	background: #454645;
 }
 
+
+
+div.title.notice, div.contact_footer.notice {
+	font-size: 36px;
+	color: #DF0303;
+	background: #FBFF84;
+}
+
 div.contact_footer {
 	font-size: 30px;
         color: white;	
