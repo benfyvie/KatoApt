@@ -140,7 +140,9 @@ div.left_pane div:nth-child(1n + 2) {
 div.application{
 	text-align: center;
 	height: 29px;
-	margin-bottom: 10px;	
+	margin-top: 7px;	
+	margin-bottom: 7px;	
+	display: inline-block;
 }
 
 div.application, div.button_link { 	
