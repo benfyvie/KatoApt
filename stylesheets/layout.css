@@ -32,8 +32,8 @@ tr.main {
 
 div.title {
 	text-align: center;
-	height: 46px;
-	/*height: 84px; USE WITH SUBTITLE*/
+	/*height: 46px; /*USE WITHOUT SUBTITLE*/
+	height: 84px; /*USE WITH SUBTITLE*/
 }
 
 div.contact, div.more_info {
